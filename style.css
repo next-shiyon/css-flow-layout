@@ -56,7 +56,7 @@ body {
 }
 
 .max-width-wrapper .intro-chunk {
-  max-width: 500px;
+  max-width: 650px;
   margin-right: auto;
   margin-left: auto;
   padding: 0 var(--spacing-xs);
@@ -72,7 +72,7 @@ main {
 }
 
 .max-width-wrapper .card {
-  max-width: 500px;
+  max-width: 650px;
   margin-right: auto;
   margin-left: auto;
   background-color: var(--color-white);
