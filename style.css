@@ -24,7 +24,7 @@
   --color-black: hsl(0deg, 0%, 0%);
   --color-very-dark: hsl(0deg, 0%, 10%);
   --color-dark: hsl(0deg, 0%, 30%);
-  --color-dedium: hsl(0deg, 0%, 40%);
+  --color-medium: hsl(0deg, 0%, 40%);
   --color-light: hsl(0deg, 0%, 60%);
   --color-white: hsl(0deg, 0%, 100%);
 }
@@ -38,6 +38,54 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 /* Add styles here! */
+
+.max-width-wrapper {
+  padding: var(--spacing-md) 0;
+}
+
+.max-width-wrapper strong {
+  color: var(--color-primary);
+}
+
+.max-width-wrapper .title {
+  font-size: var(--font-scale-xxlg);
+}
+
+.max-width-wrapper .intro-chunk {
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 var(--spacing-xs);
+}
+
+.intro-chunk > p {
+  max-width: 330px;
+}
+
+main {
+  border-top: var(--spacing-xxxs) solid var(--color-light);
+  background-color: var(--color-medium);
+}
+
+.max-width-wrapper .card {
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: var(--color-white);
+  padding: var(--spacing-sm) var(--spacing-xs) var(--spacing-xs);
+  border-bottom: var(--spacing-xxxs) solid var(--color-light);
+}
+
+.max-width-wrapper .indented-heading {
+  max-width: max-content;
+  margin-top: calc(var(--spacing-xs) * -1);
+  margin-left: calc(var(--spacing-sm) * -1);
+  padding: var(--spacing-xxs) var(--spacing-sm);
+  font-size: var(--font-scale-xlg);
+  background-color: var(--color-secondary-lighter);
+  border-bottom: var(--spacing-xxxs) solid var(--color-secondary-darker);
+}
