@@ -1,6 +1,37 @@
+:root {
+  /* Spacing */
+  --spacing-xxxs: 8px;
+  --spacing-xxs: 16px;
+  --spacing-xs: 24px;
+  --spacing-sm: 32px;
+  --spacing-md: 48px;
+  --spacing-lg: 68px;
+  --spacing-xlg: 96px;
+  --spacing-xxlg: 128px;
+
+  /* Font scale */
+  --font-scale-md: 1rem;
+  --font-scale-lg: 1.25rem;
+  --font-scale-xlg: 1.5rem;
+  --font-scale-xxlg: 2rem;
+
+  /* Color palette */
+  --color-primary: hsl(160deg, 100%, 30%);
+  --color-secondary-lighter: hsl(45deg, 100%, 50%);
+  --color-secondary-darker: hsl(45deg, 100%, 40%);
+
+  /* Grays */
+  --color-black: hsl(0deg, 0%, 0%);
+  --color-very-dark: hsl(0deg, 0%, 10%);
+  --color-dark: hsl(0deg, 0%, 30%);
+  --color-dedium: hsl(0deg, 0%, 40%);
+  --color-light: hsl(0deg, 0%, 60%);
+  --color-white: hsl(0deg, 0%, 100%);
+}
+
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
